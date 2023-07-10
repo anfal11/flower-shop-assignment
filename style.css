@@ -285,3 +285,35 @@ input[type="text"] {
     outline: none;
     margin-right: 16px;
 }
+
+/* Footer Section */
+.footer-container{
+    background: #111010;
+}
+.footer-container h1{
+    color: #E55473;
+font-size: 48px;
+font-weight: 800;
+text-align: center;
+padding-top: 128px;
+}
+.footer-container span{
+    color: #FFFFFF;
+font-size: 48px;
+font-weight: 800;
+}
+
+.footer-para{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.footer-copyright-para{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 128px;
+}
