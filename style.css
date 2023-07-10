@@ -14,6 +14,22 @@ body {
     background: #E55473;
 }
 
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #FFF;
+    color: #000;
+    border: 1px solid #E55473;
+    transition: 0.3s;
+}
+
 .container-header {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -40,23 +56,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
-}
-
-/* header button */
-.btn-header {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 20px 43px;
-    border: none;
-    cursor: pointer;
-}
-
-.btn-header:hover {
-    background: #FFF;
-    color: #000;
-    border: 1px solid #E55473;
-    transition: 0.3s;
 }
 
 /* right side image */
@@ -132,13 +131,13 @@ body {
 .about-us-section {
     display: flex;
     justify-content: center;
+    margin-bottom: 128px;
 }
 
 .container-about-us {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
     padding: 100px 175px;
@@ -158,4 +157,51 @@ body {
     text-align: center;
     font-size: 24px;
     font-weight: 600;
+}
+
+/* Hot deal section */
+.hot-deal-section {
+    margin-bottom: 128px;
+}
+
+.container-hot-deal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.left-side-hot-deal>h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.left-side-hot-deal>p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.hot-deal-discount {
+    color: #E55473;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-hot-deal {
+    text-align: center;
+}
+
+.hot-deal-img{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
