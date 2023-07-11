@@ -304,6 +304,9 @@ input[type="text"] {
     justify-content: center;
     margin-bottom: 128px;
 }
+.radio{
+    margin-right: 5px;
+}
 
 .container-review {
     border-radius: 8px;
