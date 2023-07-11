@@ -16,9 +16,9 @@ body {
 
 .btn {
     color: #FFF;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
-    padding: 20px 43px;
+    padding: 15px 35px;
     border: none;
     cursor: pointer;
 }
@@ -35,18 +35,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 /* left side description */
 .left-side-description {
-    margin-left: 240px;
-    margin-left: 97px;
+    margin-left: 200px;
+    margin-right: 97px;
 }
 
 .left-side-description-head {
     color: #272727;
-    font-size: 80px;
+    font-size: 40px;
     font-weight: 800;
     margin-bottom: 32px;
 }
@@ -78,13 +77,13 @@ body {
 
 .featured-flower-description-head {
     color: #272727;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
 }
 
 .featured-flower-description-para {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -94,31 +93,38 @@ body {
     justify-content: center;
     align-items: center;
     gap: 24px;
+    vertical-align: top;
 }
 
 .featured-flower-images1 {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
-    padding: 110px 78px 0px 76px;
+    padding: 80px 60px 0px;
+    width: 100%;
+    height: 350px;
 }
 
 .featured-flower-images2 {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(5, 151, 160, 0.15);
-    padding: 117px 47px 51px;
+    padding: 80px 35px 30px;
+    width: 100%;
+    height: 350px;
 }
 
 .featured-flower-images3 {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(71, 125, 17, 0.15);
-    padding: 67px 75px 0px;
+    padding: 80px 60px 0px;
+    width: 100%;
+    height: 350px;
 }
 
 .featured-flower-caption {
     text-decoration: underline;
     text-align: center;
     color: #272727;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     margin-top: 32px;
 }
@@ -140,8 +146,8 @@ body {
     align-items: center;
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
-    padding: 100px 175px;
-    width: 1440px;
+    padding: 70px 120px;
+    width: 1000px;
 }
 
 .about-us {
@@ -153,13 +159,14 @@ body {
 }
 
 .img-delivery {
-    margin-bottom: 24px;
+    margin-bottom: 17px;
+    width: 25%;
 }
 
 .img-delivery-para {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -178,17 +185,18 @@ body {
 
 .left-side-hot-deal>h3 {
     color: #272727;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     margin-bottom: 24px;
+    text-align: center;
 }
 
 .left-side-hot-deal>p {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
 
 .hot-deal-discount {
@@ -220,14 +228,14 @@ body {
 .insta-flower-description-head {
     color: #272727;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
 }
 
 .insta-flower-description-para {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     margin-bottom: 48px;
 }
@@ -237,23 +245,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 15px;
+    /* margin-left: 220px;
+    margin-right: 220px; */
+}
+
+.insta-flower figure img {
+    width: 100%;
+    height: 280px;
 }
 
 .insta-flower-section {
-    margin-bottom: 128px;
+    margin-bottom: 60px;
 }
 
 /* Latest deals Mail subscribe Section */
 .latest-deals-section {
-
-    margin-bottom: 128px;
+    margin-bottom: 50px;
 }
 
 .latest-deals {
     background-image: url("/Flower Asset/Rectangle\ 9.png");
     background-repeat: no-repeat;
-    background-size: 1440px;
+    background-size: 1000px;
     height: 450px;
     background-position: center;
     text-align: center;
@@ -262,9 +276,9 @@ body {
 .latest-deals > h2 {
     color: #272727;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
-    padding-top: 122px;
+    padding-top: 130px;
 }
 
 .latest-deals>p {
@@ -272,14 +286,14 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    padding-bottom: 48px;
+    padding-bottom: 25px;
 }
 
 input[type="text"] {
-    padding: 22px 512px 22px 22px;
+    padding: 17px 512px 17px 17px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     border: none;
     outline: none;
