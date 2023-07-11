@@ -39,8 +39,8 @@ body {
 
 /* left side description */
 .left-side-description {
-    margin-left: 200px;
-    margin-right: 97px;
+    padding-left: 200px;
+    padding-right: 97px;
 }
 
 .left-side-description-head {
@@ -246,8 +246,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    /* margin-left: 220px;
-    margin-right: 220px; */
 }
 
 .insta-flower figure img {
@@ -273,7 +271,7 @@ body {
     text-align: center;
 }
 
-.latest-deals > h2 {
+.latest-deals>h2 {
     color: #272727;
     text-align: center;
     font-size: 30px;
@@ -300,34 +298,71 @@ input[type="text"] {
     margin-right: 16px;
 }
 
-/* Footer Section */
-.footer-container{
-    background: #111010;
-}
-.footer-container h1{
-    color: #E55473;
-font-size: 48px;
-font-weight: 800;
-text-align: center;
-padding-top: 128px;
-}
-.footer-container span{
-    color: #FFFFFF;
-font-size: 48px;
-font-weight: 800;
+/* Customer Feedback Section */
+.customer-review-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 128px;
 }
 
-.footer-para{
+.container-review {
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 70px 120px;
+    width: 1000px;
+    text-align: center;
+}
+.container-review > h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.container-review > label >{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.review-span{
+    color: #E55473;
+}
+#text-area{
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+
+/* Footer Section */
+.footer-container {
+    background: #111010;
+}
+
+.footer-container h1 {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 128px;
+}
+
+.footer-container span {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-para {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
 }
-.footer-copyright-para{
+
+.footer-copyright-para {
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-padding-bottom: 128px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 128px;
 }
+
+
