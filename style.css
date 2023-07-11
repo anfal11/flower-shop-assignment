@@ -263,7 +263,8 @@ body {
 }
 
 .latest-deals {
-    background-image: url("/Flower Asset/Rectangle\ 9.png");
+    /* background-image: url("/Flower Asset/Rectangle 9.png"); */
+    background-image: url("./Flower Asset/Rectangle 9.png");
     background-repeat: no-repeat;
     background-size: 1000px;
     height: 450px;
@@ -304,7 +305,8 @@ input[type="text"] {
     justify-content: center;
     margin-bottom: 128px;
 }
-.radio{
+
+.radio {
     margin-right: 5px;
 }
 
@@ -315,19 +317,22 @@ input[type="text"] {
     width: 1000px;
     text-align: center;
 }
-.container-review > h1{
+
+.container-review>h1 {
     font-size: 48px;
     font-weight: 800;
 }
-.container-review > label >{
+
+.container-review>label> {
     font-size: 20px;
     font-weight: 800;
 }
 
-.review-span{
+.review-span {
     color: #E55473;
 }
-#text-area{
+
+#text-area {
     border: none;
     outline: none;
     padding: 20px;
@@ -367,5 +372,3 @@ input[type="text"] {
     font-weight: 400;
     padding-bottom: 128px;
 }
-
-
